@@ -1,0 +1,41 @@
+An application which facilitates information about gardening including:
+
+planting information
+	widths and rows
+	sun/shade per plant
+	temperature and weather conditions
+	soil preference
+
+germination procedures
+	temperature
+	dark/light
+	moisture
+	days to wait for sprouting
+		calendar synchronization
+
+transplanting information
+	height
+	procedure for hardening
+
+garden layout planner
+	utilizes circle packing
+	ability to indicate shaded/sunny areas of garden
+
+tips and advice
+	how to identify your soil type
+	how to test soil ph
+	build a compost container
+	maintain a compost heap
+
+??Maybe??
+
+Forest Garden Planner
+	Tree Health
+		spacing
+		light
+		nutrients
+	Yard scheme
+		shade/sun
+		slope
+		how to arrange for weather patterns
+		

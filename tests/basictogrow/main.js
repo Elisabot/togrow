@@ -45,7 +45,14 @@ function onFarmStationResponse ( data ) {
 
 function onFarmProbabilityResponse ( data ) {
 	data = JSON.parse(data);
+	//next line is totally experimental
+	var temperature = data[3];
 	console.log(data);
 }
+
+//select temperature object 3
+
+
+
 
 //http://maps.googleapis.com/maps/api/geocode/json?address=97216

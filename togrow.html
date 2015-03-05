@@ -11,9 +11,15 @@
 	<div class="container-fluid">
 		<h2>Gardening Application</h2>
 		<h1>togrow</h1>
-	</div>
-	<div>
-		<
+
+		<form id="zipForm">
+			<label for="zip">Zip Code:</label>
+			<input type="text" id="zip" pattern="\d{5}" maxlength="5" name="zip" required="required" />
+
+			<input type="submit" id="submitbutton" name="submitbutton" value="Submit" />
+			<div id="msg"></div>
+		</form>
+		
 	</div>
 </template>
 

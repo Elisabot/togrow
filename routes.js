@@ -7,3 +7,7 @@
 Router.route('/', function () {
   this.render('home');
 });
+
+Router.route('/index', function () {
+  this.render('index');
+});

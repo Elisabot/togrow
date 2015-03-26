@@ -1,4 +1,7 @@
 if (Meteor.isClient) {
+
+
+
 	//Binds zipForm to function onFormSubmit
 	$( "#zipForm" ).submit(onFormSubmit)
 
@@ -51,7 +54,8 @@ if (Meteor.isClient) {
 }
 
 if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
+	//mailgun hookup
+	Meteor.startup(function () {
+		process.env.MAIL_URL='smptp://postmaster%40sandbox09466a9725354139b690759ab4885905.mailgun.org:3513ff37a2f2618eaa5588c3137f1451@smtp.mailgun.org:587'
+	  });
 }

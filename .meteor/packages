@@ -10,3 +10,26 @@ iron:router
 email
 ian:bootstrap-3
 
+accounts-ui
+accounts-password
+accounts-facebook
+accounts-google
+accounts-twitter
+accounts-github
+service-configuration
+http
+meteorhacks:ssr
+accounts-base
+twbs:bootstrap
+browser-policy
+check
+cmather:handlebars-server
+jquery
+themeteorchef:jquery-validation
+meteorhacks:npm
+particle4dev:sass@0.3.0
+underscore
+themeteorchef:bert
+
+
+npm-container

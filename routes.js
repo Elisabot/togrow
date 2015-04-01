@@ -1,15 +1,13 @@
 
-// Router.configure({
-// 	// the default layout
-// 	layoutTemplate: 'layout'
-// });
 
 Router.route('/', function () {
   this.render('home');
 });
 
+Router.route('/login', function () {
+  this.render('login');
+});
 
-Router.route('/email', function () {
-  this.render('email');
-
+Router.route('/date', function () {
+  this.render('getDate');
 });

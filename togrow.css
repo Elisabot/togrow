@@ -1,3 +1,67 @@
-/* CSS to go here */
+/* CSS declarations go here */
+.bg-wrapper {
+	background-color: grey;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+.disclaimer {
+	font-size: .8em;
+	color: white;
+	position: fixed;
+	bottom: 15px;
+}
+
+#welcome {
+/*Text Styling*/
+	font-family: 'Lato', sans-serif;
+	color: white;
+/*Text Orientation*/
+	overflow: auto;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+/*Block Styling*/
+	background-color:black;
+   z-index:0;
+   opacity:.7;
+   width: 100%;
+   left: 0%;
+   padding: 2px;
+}
+
+#welcome h1 {
+	font-weight: 900;
+}
+
+#welcome h2 {
+   width: 100%;
+}
+
+/*Anchor Button Styles */
+p {
+		font-family: 'Lato', sans-serif;
+}
+
+#flowchart {
+}
+
+.btn-primary {
+	background-color: darkgrey;
+	border-color: darkgrey;
+	border-radius: 0px;
+}
+
+h5 {
+	position: absolute;
+	bottom: 0;
+}
 
 

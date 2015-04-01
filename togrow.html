@@ -1,24 +1,37 @@
 
 <head>
-  <title>togrow</title>
+  <title>To Grow</title>
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,900' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
 
 <body>
-	<h1>Welcome to Meteor!</h1>
 	<div class="container">
 			{{loginButtons}}
 		{{email}}
 	</div>
 </body>
 
-<template name="email">
-	
 
-</template>
+
+
 
 <template name="home">
+  <a href="/login">
+  <div class="container-fluid bg-wrapper" style="background-image: url({{bgurl}})">
+
+    <div id="welcome">
+      <h1>To Grow:</h1>
+      <h2>Let's get this growing.</h2>
+    </div>
+    <p class="disclaimer">WARNING: Dates given are only suggestions. Use caution and check your local forecast when planting out.</p>
+  </div>
+  </a>
+</template>
+
+
+
+<template name="getDate">
 	<div>
 		<h2>Gardening Application</h2>
 		<h1>togrow</h1>
@@ -34,28 +47,13 @@
 	</div>
 </template>
 
-<template name="index">
-  {{>signInWithEmailModal}}
-  <div class="row">
-    <div class="col-xs-12 col-sm-6">
-      <img src="https://s3.amazonaws.com/themeteorchef-cdn/don_carlton.png" alt="Don Carlton holding business card.">
-    </div>
-    <div class="col-xs-12 col-sm-6">
-      <div class="page-header">
-        <h3>Sign In to DCS</h3>
-        <p>Hey there team maties! Come on aboard!</p>
-      </div>
-      <ul class="btn-list">
-        <li><button type="button" class="btn btn-social-login btn-facebook"><i class="fa fa-facebook"></i> Sign in with Facebook</button></li>
-        <li><button type="button" class="btn btn-social-login btn-github"><i class="fa fa-github"></i> Sign in with GitHub</button></li>
-        <li><button type="button" class="btn btn-social-login btn-google"><i class="fa fa-google"></i> Sign in with Google</button></li>
-        <li><button type="button" class="btn btn-social-login btn-twitter"><i class="fa fa-twitter"></i> Sign in with Twitter</button></li>
-        <li><button type="button" class="btn btn-social-login btn-success" data-toggle="modal" data-target="#sign-in-with-email-modal"><i class="fa fa-envelope"></i> Sign in with Email</button></li>
-      </ul>
-    </div>
-  </div>
-</template>
 
+
+
+
+<template name="login">
+  <p>this is the login template</p>
+</template>
 
 
 

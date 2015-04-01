@@ -7,6 +7,8 @@ if (Meteor.isClient) {
 
   var bgurls = [
     '/images/bg/sprouts.jpg',
+    '/images/bg/transplants.jpg',
+    '/images/bg/garden.jpg',
   ]
 
   // Pick random background image 

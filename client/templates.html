@@ -1,15 +1,19 @@
 
 <template name="home">
-  <a href="/login">
   <div class="container-fluid bg-wrapper" style="background-image: url({{bgurl}})">
+
+  {{> loginButtons}}
+
+  {{#if currentUser}}
+  	{{currentUser.profile.login}}
+  {{/if}}
 
     <div id="welcome">
       <h1>To Grow</h1>
       <h2>let's get this growing</h2>
     </div>
-    <p class="disclaimer">WARNING: Dates given are only suggestions. Use caution and check your local forecast when planting out.</p>
+    <p class="disclaimer">Dates given are only suggestions. Use caution and check your local forecast when planting out.</p>
   </div>
-  </a>
 </template>
 
 
@@ -28,14 +32,6 @@
 		</form>
 		
 	</div>
-</template>
-
-
-
-
-
-<template name="login">
-  <p>this is the login template</p>
 </template>
 
 

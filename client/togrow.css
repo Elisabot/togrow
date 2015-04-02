@@ -30,11 +30,11 @@
 	text-align: center;
 /*Block Styling*/
 	background-color:black;
-   z-index:0;
-   opacity:.7;
-   width: 100%;
-   left: 0%;
-   padding: 2px;
+	z-index:0;
+	opacity:.7;
+	width: 100%;
+	left: 0%;
+	padding: 2px;
 }
 
 #welcome h1 {
@@ -64,4 +64,17 @@ h5 {
 	bottom: 0;
 }
 
+a {
+	color: white;
+}
 
+#login-buttons {
+	font-size: 25px;
+/*Block Styling*/
+	background-color:black;
+	z-index:0;
+	opacity:.7;
+	width: 103px;
+	left: 0%;
+	padding: 2px;
+}

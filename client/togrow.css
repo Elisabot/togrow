@@ -56,25 +56,37 @@ h5 {
 	bottom: 0;
 }
 
-a {
-	color: white;
-}
+
 
 /*Button Styles*/
 #login-buttons {
-	font-size: 2em;
-	display: block;
-	height: 50px;
-	width: 33%;
-	background-color: #f45c43;
-	border: 2px solid #f45c43;
 
-	/*Text*/
-	text-align: center;
+	background: #f78776;
+	background-image: -webkit-linear-gradient(top, #f78776, #f45c43);
+	background-image: -moz-linear-gradient(top, #f78776, #f45c43);
+	background-image: -ms-linear-gradient(top, #f78776, #f45c43);
+	background-image: -o-linear-gradient(top, #f78776, #f45c43);
+	background-image: linear-gradient(to bottom, #f78776, #f45c43);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
 
+#login-buttons:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
 
-	-webkit-border-radius: 50px;
-	-khtml-border-radius: 50px;
-	-moz-border-radius: 50px;
-	border-radius: 50px;
+a, a:hover, a:visited, a:link, a:active {
+	text-decoration: none !important;
 }

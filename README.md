@@ -1,5 +1,7 @@
 # togrow
-Attn: Work In Progress :]
+Attn: Work in progress, expect strangeness.
+http://togrow.meteor.com/
+
 
 An application to keep track of my seed starting and planting out information.
 

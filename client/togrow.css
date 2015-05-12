@@ -45,18 +45,10 @@
    width: 100%;
 }
 
-/*Anchor Button Styles */
-p {
-		font-family: 'Lato', sans-serif;
-}
-
-#flowchart {
-}
-
-.btn-primary {
-	background-color: darkgrey;
-	border-color: darkgrey;
-	border-radius: 0px;
+/*General Font Style */
+p, a {
+	font-family: 'Lato', sans-serif;
+	color: white;
 }
 
 h5 {
@@ -68,13 +60,21 @@ a {
 	color: white;
 }
 
+/*Button Styles*/
 #login-buttons {
-	font-size: 25px;
-/*Block Styling*/
-	background-color:black;
-	z-index:0;
-	opacity:.7;
-	width: 103px;
-	left: 0%;
-	padding: 2px;
+	font-size: 2em;
+	display: block;
+	height: 50px;
+	width: 33%;
+	background-color: #f45c43;
+	border: 2px solid #f45c43;
+
+	/*Text*/
+	text-align: center;
+
+
+	-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
 }

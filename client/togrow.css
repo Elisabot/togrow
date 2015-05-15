@@ -75,6 +75,7 @@ h5 {
 	font-size: 20px;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
+	margin-top: 15px;
 }
 
 #login-buttons:hover {
@@ -86,6 +87,11 @@ h5 {
 	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
 	text-decoration: none;
 }
+
+/*.login-buttons-dropdown-align- {
+	padding-top: 20px;
+	background: yellow;
+}*/
 
 a, a:hover, a:visited, a:link, a:active {
 	text-decoration: none !important;

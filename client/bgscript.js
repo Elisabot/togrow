@@ -12,14 +12,14 @@ if (Meteor.isClient) {
   ]
 
   // Pick random background image 
-  Template.home.helpers({
+  Template.landingPage.helpers({
     bgurl: function () {
       // debugger;
       return bgurls[randoInt(0, bgurls.length)];
     }
   });
 
-  Template.home.events({
+  Template.landingPage.events({
 //nothing to see here...
   });
 }

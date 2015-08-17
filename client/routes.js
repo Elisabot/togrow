@@ -1,13 +1,18 @@
 
 
 Router.route('/', function () {
+  if (Meteor.userId() === null) {
+  	this.render('landingPage');
+  } else { 
+  	this.render('registerZip');
+  };
+});
+
+Router.route('/home', function () {
   this.render('home');
 });
 
-Router.route('/login', function () {
-  this.render('login');
+Router.route('/reg', function () {
+  this.render('registerZip');
 });
 
-Router.route('/date', function () {
-  this.render('getDate');
-});

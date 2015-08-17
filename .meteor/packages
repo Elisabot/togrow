@@ -10,9 +10,4 @@ iron:router
 email
 ian:bootstrap-3
 accounts-password
-accounts-facebook
-accounts-github
-accounts-google
-accounts-meetup
-accounts-twitter
 accounts-ui

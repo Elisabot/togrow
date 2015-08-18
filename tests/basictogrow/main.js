@@ -1,11 +1,11 @@
-//problem: we need to make the user's zip code returns a frost date for spring.
+//problem: we need to make the user's zip code return a frost date for spring.
 
 //Binds zipForm to function onFormSubmit
 $( "#zipForm" ).submit(onFormSubmit)
 
 //When the user enters a zipcode the following occurs:
 function onFormSubmit ( formSubmitEvent ) {
-	console.log("Form submitted and man handled...");
+	console.log("Form submitted man...");
 	//prevent the page from reloading on submission
 	formSubmitEvent.preventDefault();
 
@@ -55,4 +55,5 @@ function onFarmProbabilityResponse ( data ) {
 
 
 
-//http://maps.googleapis.com/maps/api/geocode/json?address=97216
+// Other information:
+// Farmsense allows for choosing spring = 1 or fall = 2 data

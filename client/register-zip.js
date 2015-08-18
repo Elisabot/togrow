@@ -1,3 +1,6 @@
+//zipcode registration page stuff
+
+//prevent the page from reloading after submiting
 Template.registerZip.events({
 	"submit form": function (event, template) {
 		event.preventDefault();
@@ -6,6 +9,15 @@ Template.registerZip.events({
 });
 
 
+
+
+
+
+
+
+
+
+//just some reminders on stuff:
 // o = {
 // 	p: 1,
 // 	p2: 3

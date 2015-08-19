@@ -11,8 +11,16 @@ Questions:
 	Domain name? meteor.togrow.?
 	What am I doing for a server? How does that work with meteor?
 
+//User Story\\
+When I first started gardening what did I want to know?
+	-what do the sprouts look like? how can I identify them?
+	-how long things take to sprout and why
+What do I still have to look up regularly?
+	-sunlight requirements
+	-sensitivity to temperature (eg. eggplants stop growing at 50f)
+	-soil requirements and fertilizers
 
-
+//Potential Scope\\
 An application which facilitates information about gardening including:
 
 planting information
@@ -54,3 +62,4 @@ Forest Garden Planner
 		slope
 		how to arrange for weather patterns
 		
+

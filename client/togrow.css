@@ -12,7 +12,7 @@
 
 .disclaimer {
 	font-size: .8em;
-	color: white;
+	color: black;
 	position: fixed;
 	bottom: 15px;
 }
@@ -45,8 +45,8 @@
    width: 100%;
 }
 
-/*General Font Style */
-p, a {
+/*General Font Styles */
+a {
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
@@ -55,7 +55,6 @@ h5 {
 	position: absolute;
 	bottom: 0;
 }
-
 
 
 /*Button Styles*/

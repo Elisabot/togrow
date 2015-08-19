@@ -1,19 +1,15 @@
 
 <template name="landingPage">
   <div class="container-fluid bg-wrapper" style="background-image: url({{bgurl}})">
-
   {{> loginButtons}}
-
   {{#if currentUser}}
-  	{{currentUser.profile.login}}
+  {{currentUser.profile.login}}
   {{/if}}
-
     <div id="welcome">
       <h1>To Grow</h1>
       <h2>Let's get this growing</h2>
-      <h3>A succinct description of this application for prospective useres.</h3>
+      <h4>A succinct description of this application for prospective users.</h4>
     </div>
-
   </div>
 </template>
 
@@ -22,18 +18,17 @@
 	<div id="register">
 		<h2>Gardening Application</h2>
 		<h1>togrow</h1>
-
 		<form id="zipForm">
-			<label for="zip">Zip Code:</label>
+			<p>Enter your zip code to recieve a frost date notification.</p>
+			<label for="zip">Zip Code</label>
 			<input type="text" id="zip" pattern="\d{5}" maxlength="5" name="zip" required="required" />
-
 			<input type="submit" id="submitbutton" name="submitbutton" value="Submit" />
 			<div id="msg"></div>
 		</form>
-
-		<p class="disclaimer">Dates given are suggestions based on past data.</p>
+		<p class="disclaimer">Dates given are only suggestions based on past data.</p>
 	</div>
 </template>
+
 
 <template name="home">
 	<div id="homePage">

@@ -9,7 +9,19 @@ Template.registerZip.events({
 });
 
 
-
+// if (Meteor.isClient) {
+	// Meteor.call(
+		// 'sendEmail',
+		////to
+		// user.email, //fix this once userdata is sorted
+		////from
+		// '',
+		////subject
+		// 'Frost is Coming',
+		////text
+		// 'Get ready to rumble ' username '. Things are going to get chilly soon and your plants will need a helping hand to get though it. Your first frost date is ' //grab date from API and stick here
+		// );
+// }
 
 
 
